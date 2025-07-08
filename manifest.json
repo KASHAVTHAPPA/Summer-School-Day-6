@@ -4,7 +4,7 @@
   "version": "1.0",
   "description": "Check weather from your current location",
   "permissions": ["storage"],
-  "host_permissions": [" "],
+  "host_permissions": ["https://api.weatherapi.com/*"],
   "action": {
     "default_popup": "popup.html"
   }
